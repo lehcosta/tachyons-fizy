@@ -1,15 +1,18 @@
 {
-  "name": "tachyons",
+  "name": "tachyons-fizy",
   "version": "4.7.4",
-  "description": "Functional CSS for humans",
+  "description": "Tachyons packages edited for fizy.com.br",
   "author": "mrmrs",
-  "style": "css/tachyons.min.css",
-  "main": "css/tachyons.css",
+  "style": "css/tachyons-fizy.min.css",
+  "main": "css/tachyons-fizy.css",
   "files": [
     "css",
     "src"
   ],
-  "repository": "tachyons-css/tachyons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehcosta/tachyons-fizy.git"
+  },
   "keywords": [
     "css",
     "oocss",
@@ -29,21 +32,18 @@
     "watch": "^1.0.2"
   },
   "contributors": [
-    {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
-    }
+      "Leandro Costa <leandrohernandes95@gmail.com>"
   ],
+  "bugs": {
+    "url": "https://github.com/lehcosta/tachyons-fizy/issues" 
+  },
+  "homepage": "https://github.com/lehcosta/tachyons-fizy#readme",
   "scripts": {
     "start": "npm run build:watch",
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
+    "build:css": "tachyons src/tachyons.css > css/tachyons-fizy.css",
+    "build:minify": "tachyons src/tachyons.css -m > css/tachyons-fizy.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   }
 }
