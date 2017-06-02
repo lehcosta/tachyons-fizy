@@ -70,6 +70,8 @@
 .washed-yellow { color: var(--washed-yellow); }
 .washed-red { color: var(--washed-red); }
 .color-inherit { color: inherit; }
+.fizy-turquoise { color: var(--fizy-turquoise); }
+.fizy-gray { color: var(--fizy-gray); }
 
 .bg-black-90 {         background-color: var(--black-90); }
 .bg-black-80 {         background-color: var(--black-80); }
@@ -134,3 +136,5 @@
 .bg-washed-yellow { background-color: var(--washed-yellow); }
 .bg-washed-red { background-color: var(--washed-red); }
 .bg-inherit { background-color: inherit; }
+.bg-fizy-turquoise { background-color: var(--fizy-turquoise); }
+.bg-fizy-gray { background-color: var(--fizy-gray); }
